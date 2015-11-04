@@ -1,0 +1,46 @@
+[core]
+	excludesfile = /Users/basiletrujillo/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Basile Trujillo
+	email = basile.trujillo@seritech.fr
+[alias]
+	co = checkout
+	st = status
+	tg = !git tag -l | sort -n -t. -k1,1 -k2,2 -k3,3 -k4,4
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+    	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+[mergetool "kdiff3"]
+	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
+    	trustExitCode = false
+[mergetool]
+    	keepBackup = false
+[merge]
+    	tool = kdiff3
+[push]
+    	default = tracking
+
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
