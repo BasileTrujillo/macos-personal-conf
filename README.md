@@ -2,6 +2,10 @@
 
 This repo contain some file of my personal Mac OC X Shell config.
 
+## Complete Mac Dev Setup
+
+https://github.com/nicolashery/mac-dev-setup
+
 ### Tips ###
 * Show hidden files by opening Terminal and entering:
 ```
