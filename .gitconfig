@@ -44,3 +44,5 @@
     changed = green
     untracked = cyan
 
+[credential]
+	helper = cache
