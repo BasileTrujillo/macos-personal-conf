@@ -14,7 +14,11 @@
 	st = status
 	tg = !git tag -l | sort -n -t. -k1,1 -k2,2 -k3,3 -k4,4
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
-    	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ffr = flow feature rebase
+	logtoday = log --pretty=format:\"%s\" --since=12.hours --reverse
+	rc = rebase --continue
+	mt = mergetool
 
 [mergetool "kdiff3"]
 	path = /Applications/kdiff3.app/Contents/MacOS/kdiff3
