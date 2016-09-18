@@ -21,6 +21,7 @@ To install this bash config:
 
     $ cd ~
     $ mkdir .conf && cd .conf
+    $ git clone https://bitbucket.org/L0gIn/macosx-shell-config.git
     $ chmod +x install_bash.sh #Optionnal
     $ ./install_bash.sh
 
@@ -81,6 +82,7 @@ Finaly, install symblinks from cloned repository
 
     $ cd ~
     $ mkdir .conf && cd .conf
+    $ git clone https://bitbucket.org/L0gIn/macosx-shell-config.git
     $ chmod +x install_zsh.sh #Optionnal
     $ ./install_zsh.sh
 
@@ -106,3 +108,24 @@ Take a look at *trasher*'s personal conf : [https://github.com/trasher/personal_
 
  $ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES; killall Finder
 ```
+
+## Tools
+
+Here is a list of mys favorites Mac OS tools.
+
+* MAMP PRO
+* Sequel Pro
+* Robomongo
+* Transmit
+* GitKraken
+* Virtual Box + Vagrant
+* Docker
+* PHPStorm
+* Spectacle
+* Drive
+* Dr. Cleaner
+* iTerm2
+* Oh-My-ZSH
+* TextWrangler
+* Homebrew
+* NodeJS + NPM
