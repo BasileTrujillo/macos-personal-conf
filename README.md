@@ -1,6 +1,6 @@
 # README #
 
-This repo contain my personal Mac OC X bash config and some other nice stuff.
+This repo contain my personal Mac OS X bash config and some other nice stuff.
 
 ## Setup
 
