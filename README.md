@@ -21,7 +21,7 @@ To install this bash config:
 
     $ cd ~
     $ mkdir .conf && cd .conf
-    $ git clone https://bitbucket.org/L0gIn/macosx-shell-config.git
+    $ git clone https://bitbucket.org/L0gIn/macosx-shell-config.git .
     $ chmod +x install_bash.sh #Optionnal
     $ ./install_bash.sh
 
