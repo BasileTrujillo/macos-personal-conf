@@ -14,8 +14,16 @@ alias la="ls -lha"
 # List only directories
 alias lsd='ls -l | grep "^d"'
 
-#Custom aliases
+# Custom aliases
+## MAMP PRO 3.5.2
+alias mphp51='/Applications/MAMP/bin/php/php5.1.6/bin/php'
+alias mphp52='/Applications/MAMP/bin/php/php5.2.17/bin/php'
+alias mphp53='/Applications/MAMP/bin/php/php5.3.29/bin/php'
+alias mphp54='/Applications/MAMP/bin/php/php5.4.42/bin/php'
+alias mphp55='/Applications/MAMP/bin/php/php5.5.26/bin/php'
 alias mphp56='/Applications/MAMP/bin/php/php5.6.10/bin/php'
+alias mphp70='/Applications/MAMP/bin/php/php7.0.8/bin/php'
+
 alias poedit='open /Applications/Poedit.app'
 
 # Always use color output for `ls`
