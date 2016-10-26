@@ -86,4 +86,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-. ~/.conf/env.sh
+# Uncomment if using full L0gIn conf Stack
+#. ~/.conf/env.sh
