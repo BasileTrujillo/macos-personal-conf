@@ -50,7 +50,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(npm sudo urltools common-aliases git git-flow jsontools colored-man colorize jira vagrant brew osx zsh-syntax-highlighting zsh-completions)
+plugins=(npm sudo urltools common-aliases git git-flow jsontools colored-man colorize jira vagrant osx zsh-syntax-highlighting zsh-completions)
 autoload -U compinit && compinit
 
 # User configuration
