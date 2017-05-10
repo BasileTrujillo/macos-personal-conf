@@ -129,3 +129,5 @@ Here is a list of mys favorites Mac OS tools.
 * TextWrangler
 * Homebrew
 * NodeJS + NPM
+
+More other nice stuff at: https://github.com/donnemartin/dev-setup
