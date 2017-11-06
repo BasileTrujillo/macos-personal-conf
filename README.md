@@ -21,7 +21,7 @@ To install this bash config:
 
     $ cd ~
     $ mkdir .conf && cd .conf
-    $ git clone https://bitbucket.org/L0gIn/macosx-shell-config.git .
+    $ git clone git@github.com:BasileTrujillo/macos-personal-conf.git .
     $ chmod +x install_bash.sh #Optionnal
     $ ./install_bash.sh
 
@@ -82,11 +82,18 @@ Finaly, install symblinks from cloned repository
 
     $ cd ~
     $ mkdir .conf && cd .conf
-    $ git clone https://bitbucket.org/L0gIn/macosx-shell-config.git
+    $ git clone git@github.com:BasileTrujillo/macos-personal-conf.git
     $ chmod +x install_zsh.sh #Optionnal
     $ ./install_zsh.sh
 
 ```
+
+Shown with Solarized Dark colorscheme and Powerline-patched Menlo 14pt in iTerm 2.
+
+Additional setup:
+
+Install one of the patched fonts from [Vim-Powerline](https://github.com/powerline/fonts) or patch your own for the special characters.
+Optionally set DEFAULT_USER to your regular username followed by prompt_context(){} in ~/.zshrc to hide the “user@hostname” info when you’re logged in as yourself on your local machine.
 
 ## Other features
 
