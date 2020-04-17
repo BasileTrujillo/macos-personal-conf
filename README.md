@@ -97,6 +97,10 @@ Optionally set DEFAULT_USER to your regular username followed by prompt_context(
 
 ## Other features
 
+### Quick-look plugins
+
+[https://github.com/sindresorhus/quick-look-plugins](https://github.com/sindresorhus/quick-look-plugins)
+
 ### VIM config
 
 Take a look at *trasher*'s personal conf : [https://github.com/trasher/personal_conf](https://github.com/trasher/personal_conf)
