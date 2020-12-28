@@ -7,7 +7,7 @@ source ~/.conf/functions.sh
 source ~/.aliases
 
 # Load zsh-syntax-highlighting
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Path additions
 export PATH=${PATH}:/usr/local/opt/gettext/bin
