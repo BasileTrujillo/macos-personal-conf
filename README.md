@@ -27,42 +27,32 @@ To install this bash config:
 
 ```
 
-#### Consolas Font
-
-Consolas is a really nice font for coding. Being a Microsoft (!) font, it is not installed by default.
-
-There are two ways we can install it. If you bought **Microsoft Office for Mac**, install that and Consolas will be installed as well.
-
-If you don't have Office, follow these steps (assuming you have a terminal opened into cloned repository folder):
-
-```
-#!bash
-
-    $ cd ./font
-    $ chmod +x install_consolas_font.sh #Optionnal
-    $ ./install_consolas_font.sh
-
-```
-
-And click **Install Font**.
-
 ### Install ZSH Conf
 
-First you need to install it and featured components (with Homebrew).
+First you need to install [Homebrew](https://brew.sh/).
 
 ```
 #!bash
 
-    $ brew install zsh zsh-completions zsh-syntax-highlighting
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     
 ```
 
-Then install oh-my-zsh on top of zsh to getting additional functionality
+Then you need to install ZSH (with Homebrew).
 
 ```
 #!bash
 
-    $ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+brew install zsh
+    
+```
+
+Then install [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) on top of zsh to getting additional functionality
+
+```
+#!bash
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     
 ```
 
@@ -71,8 +61,8 @@ If still in the default shell, change default shell to zsh manually
 ```
 #!bash
 
-    $ chsh -s /usr/local/bin/zsh
-    
+chsh -s /usr/local/bin/zsh
+
 ```
 
 Finaly, install symblinks from cloned repository
@@ -80,15 +70,20 @@ Finaly, install symblinks from cloned repository
 ```
 #!bash
 
-    $ cd ~
-    $ mkdir .conf && cd .conf
-    $ git clone git@github.com:BasileTrujillo/macos-personal-conf.git
-    $ chmod +x install_zsh.sh #Optionnal
-    $ ./install_zsh.sh
-
+cd ~/.conf
+chmod +x install_zsh.sh #Optionnal
+./install_zsh.sh
 ```
 
 Shown with Solarized Dark colorscheme and Powerline-patched Menlo 14pt in iTerm 2.
+
+#### Install additional plugins
+
+```
+#!bash
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
 
 Additional setup:
 
